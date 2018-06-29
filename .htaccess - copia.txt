@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://www.cismedical10.com/ [R=301,L]
+
+RewriteEngine on
+RewriteRule ^quienes-somos/$ /quienes-somos.php [L]
+RewriteRule ^horarios/$ /horarios.php [L]
+RewriteRule ^contacto/$ /contactos.php [L]

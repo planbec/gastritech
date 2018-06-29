@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://qualityofcare.com.ec/ [R=301,L]
+
+RewriteEngine on
+RewriteRule ^quienessomos/$ /quienessomos.php [L]
+RewriteRule ^staff/$ /staff.php [L]
+RewriteRule ^contacto/$ /contactos.php [L]

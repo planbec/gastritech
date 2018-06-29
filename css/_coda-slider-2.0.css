@@ -1,0 +1,76 @@
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	.panel h2.title { margin-bottom: 10px }
+	noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding: 15px }
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 20px 0 }
+	.coda-slider-wrapper2 { padding: 20px 0 }
+	.coda-slider { /*background: #ebebeb*/ }
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 600px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 800px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0 10px }
+	
+	/* Arrow styling */
+	.coda-nav-left a, .coda-nav-right a { background: #000; color: #fff; padding: 5px; width: 100px }
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { width:130px; height:200px; background:url(../images/backThumb.png) no-repeat bottom center; float:left; padding:15px; color:#FFFFFF; text-align:center; }
+	.coda-slider .panel-wrapper a { color:#C28A3B; text-decoration:none; font-weight:bold; }
+	.coda-slider .panel-wrapper img { border:3px solid #858585; }
+	.coda-slider .panel-wrapper img:hover { border:3px solid #EEEEEE; }
+
+	
+	
+	.coda-slider .panel-wrapper2 { width:130px; height:185px; float:left; padding:0 14px; margin:15px 0; border-right:1px solid #751f1e;  border-left:1px solid #450301;}
+	.coda-slider .panel-wrapper2 img { border:3px solid #858585; }
+	.coda-slider .panel-wrapper2 h2 a { font-weight:bold; color:#ebc76d; text-decoration:underline;}
+	.coda-slider .panel-wrapper2 h2 a:hover { color:#FFFFFF; text-decoration:none;}
+	.coda-slider .panel-wrapper2 ol li { list-style:outside; list-style-type:decimal; padding:1px 0; margin-left:16px; color:#FFFFFF; }
+	.coda-slider .panel-wrapper2 ol li a { color:#d17a7a; text-decoration:none;}
+	.coda-slider .panel-wrapper2 ol li a:hover { color:#FFFFFF; text-decoration:underline;}
+	/*.coda-slider .panel-wrapper2 ol li:before {content: "\00BB \0020 ";}*/
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { width:950px; margin:auto; clear:both; overflow:auto }
+	*:first-child+html .coda-slider-wrapper {margin:30px auto 0 auto; }
+	.coda-slider-wrapper .titulos { text-indent:-5000px; }
+	.backNominaciones {width:950px; background:url(../images/baseNominados.png) no-repeat top center;}
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left { width:56px; height:43px; float: left;}
+	.coda-nav-right { width:56px; height:43px; float: left;}
+	.coda-nav-left a { width:56px; height:43px; margin-top:50px; display: block; text-align: center; text-indent:-5000px; background:url(../images/btn_prev.png) no-repeat bottom center; }
+	.coda-nav-left a:hover { background:url(../images/btn_prev.png) no-repeat 5px 0;  }
+	.coda-nav-right a { width:56px; height:43px; margin-top:50px; display: block; text-align: center; text-indent:-5000px; background:url(../images/btn_next.png) no-repeat bottom center;  }
+	.coda-nav-right a:hover { background:url(../images/btn_next.png) no-repeat 5px 0;  }
+
+	
