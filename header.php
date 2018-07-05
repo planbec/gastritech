@@ -5,7 +5,7 @@
 			<div class="logo-header">
 				<h1 class="logo">
 					<a href="index.php">
-						<img src="img/logo_gastrintech.png" alt="Gastrintech"  title="Gastrintech" width="240"></h1>
+						<img src="img/logo_gastritech.png" alt="Gastritech"  title="Gastritech" width="240"></h1>
 					</a>
 				<h2 class="slogan">Gastrintech</h2>
 			</div>

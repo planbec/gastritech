@@ -11,11 +11,12 @@
 	</aside>
 
 	<div class="bg-cont">
+		<!-- Quienes somos -->	
+		<?php include("home-quienessomos.php"); ?>
+
 		<!-- Servicios -->	
-			<?php include("servicios-home.php"); ?>
+		<?php include("home-servicios.php"); ?>
 		
-		<!-- Convenidos -->	
-			<?php include("convenios-home.php"); ?>
 
 	<div>
 </main>

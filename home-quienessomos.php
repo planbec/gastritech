@@ -1,9 +1,9 @@
 
-		<section id="servicios-home" class="container">
+		<section id="quienes-home" class="container">
 			
 			<div class="cols cf">
 				
-				<article class="servicio-resumen col3">
+				<article class="servicio-resumen col4">
 					<div>
 						<a href="#"><img src="img/tn_calidad.png"></a>
 					</div><!-- /.icono -->
@@ -16,7 +16,7 @@
 				</article><!-- /.servicio-resumen -->
 				
 				
-				<article class="servicio-resumen col3">
+				<article class="servicio-resumen col3x2">
 					<div>
 						<a href="#"><img src="img/tn_quimio.png"></a>
 					</div><!-- /.icono -->
@@ -28,19 +28,6 @@
 					</div><!-- /.text -->
 				</article><!-- /.servicio-resumen -->
 
-
-
-				<article class="servicio-resumen col3">
-					<div>
-						<a href="#"><img src="img/tn_radiologia.png"></a>
-					</div><!-- /.icono -->
-					
-					<div class="text">
-						<h2>Tratamiento Radioter&aacute;pia</h2>
-						<p>Tratamiento oncol&oacute;gico basado en radiaciones para eliminar c&eacute;lulas tumorales...</p>
-						<a href="radioterapia.php">Ver m&aacute;s</a>
-					</div><!-- /.text -->
-				</article><!-- /.servicio-resumen -->
 				
 			</div><!-- /.cols -->
 			
