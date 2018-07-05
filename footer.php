@@ -5,31 +5,33 @@
 			
 			<div class="contact cols">
 				<div class="col3">
-					<h3>Nuestro Staff</h3>
 					<ul>
-						<li><a href="mauricio-riofrio.php" <?php if($uri == 'staff') echo 'class="active"'?> >DR. MAURICIO RIOFRIO RIOFRIO</a></li>
-						<li><a href="carlos-freire.php" <?php if($uri == 'staff') echo 'class="active"'?> >DR. CARLOS FREIRE ALPRECHE</a></li>
-						<li><a href="rene-alvarado.php" <?php if($uri == 'staff') echo 'class="active"'?> >Dr. Rene&eacute; &Aacute;lvarado</a></li>
-						<!--li><a href="ericka-serrano.php" <?php if($uri == 'staff') echo 'class="active"'?> >DRA. ERICKA JUDITH SERRANO BUENO</a></li-->
-						<li><a href="monica-jarrin.php" <?php if($uri == 'staff') echo 'class="active"'?> >Lic. M&Oacute;NICA JARR&Iacute;N</a></li>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">Productos</a></li>
+						<li><a href="#">Quienes somos</a></li>
+						<li><a href="#">Noticias</a></li>
+						<li><a href="#">Cont&aacute;ctenos</a></li>
 					</ul>
 				</div>
 
 				<div class="col3">
-					<h3>Tratamientos</h3>
+					<h3>Enlaces</h3>
 					<ul>
-						<li><a href="cirugia.php" <?php if($uri == 'cirugia') echo 'class="active"'?> >Cirug&iacute;a</a></li>
-						<li><a href="quimioterapia.php" <?php if($uri == 'quimioterapia') echo 'class="active"'?> >Quimioterapia</a></li>
-						<li><a href="radioterapia.php" <?php if($uri == 'radioterapia') echo 'class="active"'?> >Radioterapia</a></li>
+						<li><a href="#" class="active">Home</a></li>
+						<li><a href="#">Productos</a></li>
+						<li><a href="#">Quienes somos</a></li>
+						<li><a href="#">Noticias</a></li>
+						<li><a href="#">Cont&aacute;ctenos</a></li>
 					</ul>
 				</div>
 
 				<div class="col3">
-						Direcci&oacute;n: Centro empresarial Ciudad Col&oacute;n, <br>
-						Edf. Empresarial 1, 2do piso Of 208<br>
-						Telfs.: (593-4) 2136748<br>
-						E-mail: <a href="mailto:info@qualityofcare.com.ec">info@qualityofcare.com.ec</a><br>
-						Guayaquil - Ecuador <br>
+						<h3>Direcci&oacute;n</h3>
+						Av. Joaquín Orrantia y Av. Juan Tanca Marengo<br>
+						Edificio Equilibrium, Piso 4, Of 417<br>
+						Teléfono: 042109180 Ext 129<br>
+						GUAYAQUIL, ECUADOR<br>
+						E-mail: <a href="mailto:info@gastritech.com.ec">info@gastritech.com.ec</a>
 				</div>
 				
 
@@ -41,12 +43,7 @@
 			
 			<!-- Copyright -->
 			<div class="copyright">
-				&copy; 2017 Quality of Care | Calidad de Vida  -  Todos los derechos reservados. 
-			</div>
-
-			<div class="planb">
-				Desarrollado por 
-				<a href="http://www.planb.ec" target="_blank"><img src="img/planb.jpg" title="PlanB.ec"></a>
+				&copy; 2018 Gastritech  -  Todos los derechos reservados. 
 			</div>
 			
 

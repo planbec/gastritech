@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Gastrintech</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Carlos Zambrano M. - PlanB.ec | Francisco Aguilera G. - http://franciscoamk.com">
+	
+	<link rel="stylesheet" href="css/style.css" >
+	<link rel="stylesheet" href="css/normalize.css" >
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Open+Sans:400,600,800" rel="stylesheet">
+	
+	<!--link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!--[if (gte IE 6)&(lte IE 8)]>
+	  <script type="text/javascript" src="js/selectivizr-min.js"></script>
+	  <script type="text/javascript" src="js/html5shiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Main-header -->
+	<header id="main-header" class="">
+		<div class="header-cont">
+			<!-- Logo-header -->
+			<div class="logo-header">
+				<h1 class="logo">
+					<a href="index.php">
+						<img src="img/logo_gastrintech.png" alt="Gastrintech"  title="Gastrintech" width="240"></h1>
+					</a>
+				<h2 class="slogan">Gastrintech</h2>
+			</div>
+
+			
+			<span class="menu-trigger"><i class="fa fa-bars"></i></span>
+			
+			<!-- Main-menu -->
+			<nav id="main-menu" role="navigation" class="closed">
+
+				<ul>
+					<li><a href="#" class="active">Home</a></li>
+					<li><a href="#">Productos</a></li>
+					<li><a href="#">Quienes somos</a></li>
+					<li><a href="#">Noticias</a></li>
+					<li><a href="#">Cont&aacute;ctenos</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	
+<main id="content-area">
+
+	<!-- Flexslider -->
+	<aside id="testimonios-area">
+				<div class="flexslider">
+
+			<div class="intro">
+				<p>Te brindamos nuevas<span>oportunidades de vida</span></p>
+			</div>
+
+
+		<!-- Slides -->
+			<div class="slides">			
+				
+				<div class="testimonio">
+					<img src="img/slider1.png" alt="Doctores" >
+				</div>
+				
+				<div class="testimonio">
+					<img src="img/slider2.png" alt="Quality" >
+				</div>
+
+				<div class="testimonio">
+					<img src="img/slider3.png" alt="Terapias" >
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="intro_inf">
+			<p>Te brindamos nuevas<span>oportunidades de vida</span></p>
+		</div>
+
+		<!-- /.flexslider -->
+
+	</aside>
+
+
+	<!-- Ventana modal  -->
+	<div id="miModal" class="modal">
+	  <div class="modal-contenido">
+	    <a href="#">X</a>
+			<!-- Citas -->	
+				<div class="citas">
+		<form action="enviar_cita.php" method="post">
+		<h2>Agenda tu cita</h2>
+		<input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+		<input type="text" id="email" name="email" placeholder="e-mail" required />
+		<input type="text" id="telefono" name="telefono" placeholder="Telefono" required />
+		<select name="doctor">
+		  <option value="">Doctor...</option>
+		  <option value="Dr-Mauricio-Riofrio">Dr. Mauricio Riofrio Riofrio</option>
+		  <option value="Dr-Carlos-Freire">Dr. Carlos Freire Alprecht</option>
+		  <option value="Dr-Renee-Alvarado">Dr. Reneé Alvarado</option>
+		  <option value="Dra-Ericka-Serrano">Dra. Ericka Judith Serrano</option>
+		</select>
+		<input type="date" id="fecha" name="fecha" placeholder="Fecha" required="">
+		<input type="submit" value="Enviar" class="btn-form">
+	</form>
+</div>	  </div>  
+	</div>
+
+
+	<div class="bg-cont">
+		<!-- Servicios -->	
+			
+		<section id="servicios-home" class="container">
+			
+			<div class="cols cf">
+				
+				<article class="servicio-resumen col3">
+					<div>
+						<a href="#"><img src="img/tn_calidad.png"></a>
+					</div><!-- /.icono -->
+					
+					<div class="text">
+						<h2>Calidad de vida</h2>
+						<p>Ofrecemos la mayor probabilidad de curar muchos tipos de c&aacute;ncer y prevenci&oacute;n de su propagaci&oacute;n...</p>
+						<a href="calidad.php">Ver m&aacute;s</a>
+					</div><!-- /.text -->
+				</article><!-- /.servicio-resumen -->
+				
+				
+				<article class="servicio-resumen col3">
+					<div>
+						<a href="#"><img src="img/tn_quimio.png"></a>
+					</div><!-- /.icono -->
+					
+					<div class="text">
+						<h2>Tratamiento Quimioter&aacute;pia</h2>
+						<p>Conozca sobre el uso de f&aacute;rmacos para destruir las c&eacute;lulas cancerosas...</p>
+						<a href="quimioterapia.php">Ver m&aacute;s</a>
+					</div><!-- /.text -->
+				</article><!-- /.servicio-resumen -->
+
+
+
+				<article class="servicio-resumen col3">
+					<div>
+						<a href="#"><img src="img/tn_radiologia.png"></a>
+					</div><!-- /.icono -->
+					
+					<div class="text">
+						<h2>Tratamiento Radioter&aacute;pia</h2>
+						<p>Tratamiento oncol&oacute;gico basado en radiaciones para eliminar c&eacute;lulas tumorales...</p>
+						<a href="radioterapia.php">Ver m&aacute;s</a>
+					</div><!-- /.text -->
+				</article><!-- /.servicio-resumen -->
+				
+			</div><!-- /.cols -->
+			
+			
+		</section><!-- /#servicios-home -->
+		
+		<!-- Convenidos -->	
+								    <!-- Convenios -->
+					    <section id="widget-home">
+
+								<ul class="logos">			
+									<li><a href="http://www.mediglobal.com.ec/" target="blank"><img src="img/logo_mediglobal.png" alt="" ></a></li>
+									<li><a href="http://www.bmi.com.ec/" target="blank"><img src="img/logo_bmi.jpg" alt="" ></a></li>
+									<li><a href="https://www.saludsa.com/web/" target="blank"><img src="img/logo_salud.png" alt="" ></a></li>
+									<li><a href="http://www.bestdoctorsinsurance.com/df/es/" target="blank"><img src="img/logo_best.jpg" alt="" ></a></li>
+									<li><a href="http://www.humana.com.ec/" target="blank"><img src="img/logo_humana.jpg" alt="" ></a></li>
+									<li><a href="https://www.medec.ec/" target="blank"><img src="img/logo_medec.jpg" alt="" ></a></li>
+									<li><a href="http://www.bupasalud.com.ec/" target="blank"><img src="img/logo_bupa.jpg" alt="" ></a></li>
+								</ul>
+
+						</section>
+
+
+	<div>
+</main>
+	
+	
+	<!-- Footer -->
+	<footer id="main-footer">
+		
+		<div class="footer-call-to-action">
+			
+			<div class="contact cols">
+				<div class="col3">
+					<h3>Nuestro Staff</h3>
+					<ul>
+						<li><a href="mauricio-riofrio.php"  >DR. MAURICIO RIOFRIO RIOFRIO</a></li>
+						<li><a href="carlos-freire.php"  >DR. CARLOS FREIRE ALPRECHE</a></li>
+						<li><a href="rene-alvarado.php"  >Dr. Rene&eacute; &Aacute;lvarado</a></li>
+						<!--li><a href="ericka-serrano.php"  >DRA. ERICKA JUDITH SERRANO BUENO</a></li-->
+						<li><a href="monica-jarrin.php"  >Lic. M&Oacute;NICA JARR&Iacute;N</a></li>
+					</ul>
+				</div>
+
+				<div class="col3">
+					<h3>Tratamientos</h3>
+					<ul>
+						<li><a href="cirugia.php"  >Cirug&iacute;a</a></li>
+						<li><a href="quimioterapia.php"  >Quimioterapia</a></li>
+						<li><a href="radioterapia.php"  >Radioterapia</a></li>
+					</ul>
+				</div>
+
+				<div class="col3">
+						Direcci&oacute;n: Centro empresarial Ciudad Col&oacute;n, <br>
+						Edf. Empresarial 1, 2do piso Of 208<br>
+						Telfs.: (593-4) 2136748<br>
+						E-mail: <a href="mailto:info@qualityofcare.com.ec">info@qualityofcare.com.ec</a><br>
+						Guayaquil - Ecuador <br>
+				</div>
+				
+
+			</div>
+			
+		</div><!-- /.footer-call-to-action -->
+		
+		<div id="bottom-footer" class="container cf">
+			
+			<!-- Copyright -->
+			<div class="copyright">
+				&copy; 2017 Quality of Care | Calidad de Vida  -  Todos los derechos reservados. 
+			</div>
+
+			<div class="planb">
+				Desarrollado por 
+				<a href="http://www.planb.ec" target="_blank"><img src="img/planb.jpg" title="PlanB.ec"></a>
+			</div>
+			
+
+			
+		</div><!-- /#bottom-footer -->
+		
+	</footer>
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/rem.min.js"></script>
+	<script src="js/functions.js"></script>
+	
+	<script>
+		jQuery('document').ready(function($){
+		
+			$('.flexslider').flexslider({
+				selector: ".slides > .testimonio",
+				animation: "slide",
+				controlNav: false,
+				directionNav: true,
+				prevText: "Anterior",
+				nextText: "Siguiente", 
+			});
+		
+		});
+	</script>	
+</body>
+</html>

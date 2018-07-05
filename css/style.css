@@ -278,13 +278,12 @@ hr.center {
   background: -ms-linear-gradient(top, rgba(21,86,132,1) 0%, rgba(27,152,201,1) 100%);
   background: linear-gradient(to bottom, rgba(21,86,132,1) 0%, rgba(27,152,201,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#155684', endColorstr='#1b98c9', GradientType=0 );
-  box-shadow: 0px 2px 3px #999;
+  border-bottom:1px solid #FFF; 
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 3000; }
   #main-header .header-cont {
-    border-bottom: 1px solid #FFF;
     box-sizing: border-box;
     margin: auto;
     max-width: 75rem;
@@ -316,7 +315,7 @@ hr.center {
 
 #content-area {
   clear: both;
-  margin-top: 8rem; }
+  margin-top: 7rem; }
   #content-area .bg-cont {
     /*background:#efeded url(../img/bk_m10.png) top center repeat-x;*/ }
 
@@ -326,7 +325,7 @@ hr.center {
 .logo-header {
   display: table-cell;
   width: 20%;
-  padding: 1rem 0; }
+  padding: 1.6rem 0; }
   .logo-header .logo {
     margin: 0;
     display: block;
@@ -377,23 +376,25 @@ hr.center {
         text-decoration: none; }
 
 #main-footer {
-  clear: both; }
+  clear: both; 
+  font: 400 0.9rem/1.3 'Open sans', Arial;
+}
 
 .footer-call-to-action {
   text-align: center;
-  background: #0f4857;
-  border-bottom: solid .4rem #537a85;
-  color: #eee;
+  background: #6ec2e7;
+  border-top: solid .6rem #0d99d6;
+  color: #40617e;
   margin-top: 2rem;
   padding: 1.5rem 0.5rem 0;
   overflow: hidden; }
   .footer-call-to-action h3 {
-    color: #71959f;
-    font: 400 1.3rem 'Roboto Condensed', Arial;
+    color: #0d99d6;
+    font: 400 1.3rem 'Dosis', Arial;
     margin-bottom: 0.5rem;
     text-transform: uppercase; }
   .footer-call-to-action .col3 {
-    border-left: 1px solid #235d6c;
+    border-left: 1px solid #9ed6ef;
     padding-left: 1.5rem;
     margin-bottom: 1rem; }
     .footer-call-to-action .col3:nth-child(3n) {
@@ -407,28 +408,19 @@ hr.center {
     max-width: 75rem;
     overflow: hidden;
     line-height: 1.5rem; }
-    .footer-call-to-action .contact a {
-      color: #FFF;
-      font-size: 0.8rem;
-      text-transform: uppercase;
+    .footer-call-to-action a {
+      color: #40617e;
       margin-bottom: 0.5rem; }
-      .footer-call-to-action .contact a:hover {
-        color: #7ac142; }
+      .footer-call-to-action a:hover {
+        color: #031524; }
     .footer-call-to-action .contact ul {
-      margin-left: 0;
       padding-left: 0;
-      margin-bottom: 0.5rem; }
+      margin:0 0 0.5rem; }
       .footer-call-to-action .contact ul li {
         list-style: none; }
         .footer-call-to-action .contact ul li:before {
-          content: "- "; }
-        .footer-call-to-action .contact ul li a {
-          color: #FFF;
-          font-size: 0.8rem;
-          text-transform: uppercase;
-          margin-bottom: 0.5rem; }
-          .footer-call-to-action .contact ul li a:hover {
-            color: #7ac142; }
+          content: "» "; }
+
 
 #bottom-footer {
   display: table; }
@@ -436,7 +428,9 @@ hr.center {
 #bottom-footer .copyright, #bottom-footer #footer-menu, #bottom-footer .planb {
   display: table-cell;
   width: 50%;
-  padding: 1.5em 0; }
+  padding: 1.5em 0; 
+  text-align: center;
+}
 
 #bottom-footer .planb {
   color: #999;
@@ -531,45 +525,6 @@ hr.center {
         .citas form input.btn-form:hover, .citas form select.btn-form:hover {
           background: #e99935 !important; }
 
-/* Modal Citas */
-.modal-contenido {
-  background: rgba(15, 72, 87, 0.7) none repeat scroll 0 0;
-  border-radius: 15px;
-  height: 350px;
-  margin: 100px auto;
-  padding: 10px 20px;
-  position: relative;
-  width: 410px;
-  z-index: 5000; }
-  .modal-contenido a {
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 50%;
-    color: #333;
-    display: block;
-    float: right;
-    text-decoration: none;
-    padding: 3px 8px; }
-    .modal-contenido a :hover {
-      background: rgba(255, 255, 255, 0.9); }
-  .modal-contenido .citas form {
-    background: none;
-    box-shadow: none; }
-
-.modal {
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 1s;
-  z-index: 5000; }
-
-#miModal:target {
-  opacity: 1;
-  pointer-events: auto; }
 
 #testimonios-area {
   /*background:$color-back;*/
@@ -948,7 +903,6 @@ input[type="submit"], input[type="button"] {
   border-radius: 0.3rem;
   padding: 1em 0;
   z-index: 2000;
-  margin-top: -40px;
   position: relative;
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.2); }
   #servicios-home h2 {
