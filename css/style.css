@@ -59,7 +59,7 @@ p:last-child {
   margin-bottom: 0; }
 
 a {
-  color: #50c5ab;
+  color: #3daddf;
   text-decoration: none;
   -webkit-transition: all .15s linear;
   -moz-transition: all .15s linear;
@@ -68,7 +68,7 @@ a {
   transition: all .15s linear; }
 
 a:hover {
-  text-decoration: underline; }
+  text-decoration: none; }
 
 img {
   display: inline-block;
@@ -876,7 +876,41 @@ input[type="submit"], input[type="button"] {
   color: #0f4857;
   text-shadow: 1px 1px 2px #FFF; }
 
-#hero-container {
+/* Quienes somos home */
+.quienes-home {
+    width: 80%;
+    margin: 3rem auto;
+    font: 1.05rem/1.5rem 'Open Sans', Arial, sans-serif;
+}
+
+.quienes-home h2 {
+    font: 600 2rem/2.2rem Dosis, Arial, sans-serif;
+    color: #ff9306;
+    text-shadow: none;
+    margin-bottom: 0.8rem;
+}
+
+.quienes-home p { 
+  margin-bottom: 1.2rem;
+}
+
+.quienes-home a { 
+  font-size: 1rem;
+}
+
+.quienes-home figure { 
+    background: #f3f1f1;
+    border-radius: 50%;
+    color: #0d99d6;
+    display: inline-block;
+    float: left;
+    font-size: 8rem;
+    margin: 0 2rem 1rem 0;
+    padding: 2rem 2.8rem;
+}
+
+
+/*#hero-container {
   background: #f6f6f8;
   border-bottom: solid .0625rem #d9d9e2;
   border-top: solid .0625rem #d9d9e2;
@@ -906,10 +940,11 @@ input[type="submit"], input[type="button"] {
 
 #hero p {
   margin: 1em 0; }
+*/
+
 
 .servicio-resumen {
     text-align: center;
-    padding-right: 0.25rem;
     margin-bottom: 0 !important;
     margin-right: 1rem !important;
 }
@@ -923,15 +958,33 @@ input[type="submit"], input[type="button"] {
     width: 30%; }
     .servicio-resumen .icono a {
       color: #90b0b6; }
-  .servicio-resumen img {
-    border: 1px solid #8acf54; }
+ .productos {
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+ }
+
+ .productos .item-prod {
+    flex: 1 1 auto;
+    position: relative; 
+    margin-right: 1rem;
+    }
+.productos .item-prod:last-child {
+  margin-right: 0;
+} 
+ .productos .item-prod span {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    max-width: 100px;
+  }
   .servicio-resumen .text {
     color: #FFF;
     padding: 0 1rem;
     vertical-align: top;
     text-align: left;
     width: 100%; }
-  .servicio-resumen h2 {
+  .servicio-resumen .productos .item-prod h2 {
     color: #ea5932;
     font: normal 1.4rem 'Open Sans',sans-serif;
     margin: 0.8rem 0; }
@@ -950,10 +1003,15 @@ input[type="submit"], input[type="button"] {
   position: relative;
 }
 #servicios-home h2 {
-  font: 1.4rem 'Roboto Condensed',sans-serif;
-  color: #cef8ac;
-  margin: 0.5rem 0 0.3rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3); 
+  background: #0d99d6;
+  border-left: 12px solid #3daddf;
+  color: #FFF;
+  font: 1rem 'Open Sans',sans-serif;
+  margin: 0;
+  padding: 0.2rem 0.8rem;
+  text-align: left;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  width: 100%;
 }
 #servicios-home .text a {
   color: #fff186 !important;
@@ -964,7 +1022,7 @@ input[type="submit"], input[type="button"] {
   font-size: 0.9rem; 
 }
 #servicios-home .text a:hover {
-  text-decoration: underline; 
+  text-decoration: none; 
 }
 
 /* Quienes somos home */

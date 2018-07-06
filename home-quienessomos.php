@@ -1,35 +1,10 @@
 
-		<section id="quienes-home" class="container">
-			
-			<div class="cols cf">
-				
-				<article class="servicio-resumen col4">
-					<div>
-						<a href="#"><img src="img/tn_calidad.png"></a>
-					</div><!-- /.icono -->
-					
-					<div class="text">
-						<h2>Calidad de vida</h2>
-						<p>Ofrecemos la mayor probabilidad de curar muchos tipos de c&aacute;ncer y prevenci&oacute;n de su propagaci&oacute;n...</p>
-						<a href="calidad.php">Ver m&aacute;s</a>
-					</div><!-- /.text -->
-				</article><!-- /.servicio-resumen -->
-				
-				
-				<article class="servicio-resumen col3x2">
-					<div>
-						<a href="#"><img src="img/tn_quimio.png"></a>
-					</div><!-- /.icono -->
-					
-					<div class="text">
-						<h2>Tratamiento Quimioter&aacute;pia</h2>
-						<p>Conozca sobre el uso de f&aacute;rmacos para destruir las c&eacute;lulas cancerosas...</p>
-						<a href="quimioterapia.php">Ver m&aacute;s</a>
-					</div><!-- /.text -->
-				</article><!-- /.servicio-resumen -->
-
-				
-			</div><!-- /.cols -->
-			
-			
+		<section id="" class="container">
+			<div class="quienes-home">
+			<figure><i class="fa fa-user-md" aria-hidden="true"></i></figure>
+				<h2>Quienes Somos</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis lorem interdum, euismod mi ac, lobortis dui. Sed gravida neque diam, et dignissim odio bibendum id. Cras sit amet lectus a augue consequat vestibulum. Morbi in convallis dolor. Maecenas eu diam porta mauris cursus cursus. 
+				</p>
+				<a href="#">[ver más]</a>
+			</div>
 		</section><!-- /#servicios-home -->
