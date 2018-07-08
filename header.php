@@ -24,6 +24,7 @@
 					<li><a href="#">Cont&aacute;ctenos</a></li>
 				</ul>
 			</nav>
+			<div class="version"><a href="#"><img src="img/ico_english.png" alt="English version"  title="English version"></a></div>
 		</div>
 	</header>
 

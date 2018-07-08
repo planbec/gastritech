@@ -381,6 +381,25 @@ hr.center {
   text-decoration: none; 
 }
 
+.version {
+  width: 10%;
+  display: table-cell;
+  vertical-align: top;
+  margin: 0.5rem;
+  padding: 1.5rem 0.5rem;
+}
+
+.version img {
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+.version img:hover {
+    border: 1px solid rgba(255,255,255,.8);
+    box-shadow: 0px 0px 15px 3px #3daddf;
+}
+
 
 /* Footer */
 #main-footer {
@@ -762,33 +781,68 @@ input[type="submit"], input[type="button"] {
   text-align: center; }
 
 .page-header {
-  background: #104268 url(../img/bk_amp.png) bottom center repeat-x;
+  background: #104268 url(../img/back_page.jpg) bottom center repeat-x;
   border-bottom: 5px solid #e0e0e0;
   padding: 3.7rem 0 1.5rem;
   text-align: center; }
   .page-header h1 {
-    color: #55abde;
-    font: 400 2.5rem/2.1rem 'Roboto Condensed', Arial;
+    color:#FFF;
+    font: 600 2.5rem/2.1rem 'Dosis', Arial;
     margin: 0;
-    text-shadow: 1px 1px 2px #020303; }
+    text-shadow: 0px 0px 10px #103a5d; }
   .page-header p {
     color: #333;
     font-size: 1.2em;
     line-height: 1.5em; }
 
+
+.container.page-content-min {
+  max-width: 50rem; 
+  margin-top: 2rem;
+  font: 1rem/1.5rem 'Open Sans', Arial, Sans serif
+}
+
+
+.page-content-min .noticias{
+  margin: 3rem 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.page-content-min .noticias h3 a {
+  color: #ee931e;
+  font: 600 1.7rem/2rem 'Dosis', Arial, Sans serif;
+}
+
+.page-content-min .noticias h3 a:hover {
+  color: #3daddf;
+  text-decoration: underline;
+}
+
+.page-content-min .noticias figure{
+  float: left;
+  margin: 0 2rem 0 0;
+  width: 30%;
+  vertical-align: top;
+}
+
 .container.page-content {
-  max-width: 70rem; }
+  max-width: 70rem; 
+  margin-top: 2rem;
+  font: 1rem/1.5rem 'Open Sans', Arial, Sans serif
+}
+
   .container.page-content h2 {
     color: #009d3d;
     display: block;
-    font: 1.7rem/1.7rem 'Roboto Condensed',Arial;
+    font: 600 1.7rem/1.7rem 'Dosis',Arial;
     margin: 2rem 0 1rem;
     padding: 0;
     text-transform: normal !important;
     text-shadow: none; }
   .container.page-content h3 {
     color: #009d3d;
-    font: 2rem/2rem 'Roboto Condensed',Arial;
+    font: 2rem/2rem 'Dosis',Arial;
     margin: 2.5rem 0 1rem; }
   .container.page-content h4 {
     color: #6a8d93;

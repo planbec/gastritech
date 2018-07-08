@@ -15,7 +15,7 @@ $uri = (empty($uri)) ? 'index' : $uri;
 	<meta charset="utf-8">
 	<title>Gastrintech</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-	<meta name="author" content="Carlos Zambrano M. - PlanB.ec | Francisco Aguilera G. - http://franciscoamk.com">
+	<meta name="author" content="Carlos Zambrano M. - PlanB.ec">
 	
 	<link rel="stylesheet" href="css/style.css" >
 	<link rel="stylesheet" href="css/normalize.css" >
