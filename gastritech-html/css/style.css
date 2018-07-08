@@ -963,37 +963,6 @@ input[type="submit"], input[type="button"] {
 }
 
 
-/*#hero-container {
-  background: #f6f6f8;
-  border-bottom: solid .0625rem #d9d9e2;
-  border-top: solid .0625rem #d9d9e2;
-  padding: 5em 0 8em 0;
-  position: relative; }
-
-#hero {
-  padding-right: 40%;
-  width: 95%; }
-
-#hero .dispositivos {
-  background: url(../img/home-dispositivos.png) left center no-repeat;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 55%;
-  height: 100%; }
-
-#hero .dispositivos img {
-  display: none; }
-
-#hero h2 {
-  color: #7e89a3;
-  font-size: 2.5em;
-  text-transform: none;
-  margin: 0; }
-
-#hero p {
-  margin: 1em 0; }
-*/
 
 
 .servicio-resumen {
@@ -1083,67 +1052,7 @@ input[type="submit"], input[type="button"] {
   
 }
 
-/*
-figure.icono-servicio {
-  color: #6a8d93;
-  font-size: 4rem;
-  width: 7rem;
-  height: 7rem;
-  line-height: 7rem;
-  -webkit-border-radius: 10rem;
-  -moz-border-radius: 10rem;
-  -ms-border-radius: 10rem;
-  -o-border-radius: 10rem;
-  border-radius: 10rem;
-  background: #f6f6f8;
-  border: solid .0625rem #d9d9e2;
-  text-align: center;
-  /*i { background: #FFF;} }
-  figure.icono-servicio img {
-    vertical-align: middle; }*/
-/*
-.portafolio-resumen {
-  text-align: center; }
-  .portafolio-resumen h2 {
-    margin: 1em 0 .5em 0; }
-    .portafolio-resumen h2 a {
-      color: #ea5932;
-      text-decoration: none;
-      display: block;
-      margin: 0 0 1rem -0.8rem;
-      padding: 0.3rem 1rem; }
-      .portafolio-resumen h2 a:hover {
-        background: #f6f6f6;
-        border-radius: 8rem;
-        color: #383636; }
-  .portafolio-resumen p {
-    margin: 0 0 1em 0; }
 
-.asist li {
-  list-style-position: inside;
-  margin-left: 1rem; }
-
-.portafolio-detalle .page-header {
-  padding: 3em 0 18em 0;
-  margin-bottom: -15em; }
-.portafolio-detalle .imagen-destacada {
-  margin-bottom: 1.5em;
-  text-align: center; }
-.portafolio-detalle .container.page-content {
-  text-align: center;
-  margin-top: 0; }
-  .portafolio-detalle .container.page-content ul {
-    margin: 0;
-    padding: 0; }
-    .portafolio-detalle .container.page-content ul.prod-thumbs li {
-      display: inline-block;
-      padding: 0.5rem 1.3rem 2rem 0;
-      width: 31%; }
-      .portafolio-detalle .container.page-content ul.prod-thumbs li h3 {
-        font: 1.3rem Dosis, Arial;
-        color: #ea5932;
-        margin-bottom: 0.5rem; }
-*/
 
 section#widget-home {
   margin-top: 2.5rem; }
@@ -1247,6 +1156,36 @@ figure {
 /* RESPONSIVE */
 /* Media Query 476px */
 @media only screen and (max-width: 29.8rem) {
+
+.container.page-content, .container.page-content-min {
+  padding: 0 1rem;
+}
+
+.page-content-min .noticias figure {
+    margin: 0 2rem 1rem 0;
+    width: 100%;
+}
+
+
+.page-content .col-right, .page-content .col-left, .page-content .col-right iframe {
+ width: 100%;
+}
+
+.productos {
+    display: inline-block;
+}
+.productos .item-prod {
+    position: relative;
+    margin-right: 1rem;
+    width: 45%;
+    float: left;
+    margin-bottom: 1rem;
+}
+
+.servicio-resumen img {
+    width: 100% !important;
+}
+
   .alignleft, .alignright {
     float: none;
     display: block;
@@ -1336,7 +1275,10 @@ figure {
 
   .container.page-content {
     margin-top: 0;
-    padding: 0 !important; } }
+    /*padding: 0 !important;*/
+     } 
+}
+
 /* Media Query 720px */
 @media only screen and (max-width: 45rem) {
   #testimonios-area .container {
@@ -1375,14 +1317,15 @@ figure {
 @media only screen and (max-width: 53.125rem) {
   #main-header {
     display: block;
-    background: #FFF;
-    box-shadow: 1px 0px 5px #666; }
+    box-shadow: 1px 0px 5px #666; 
+    padding: 0.5rem;
+  }
 
   #main-header .header-cont {
     background: #FFF; }
 
   #main-header .menu-trigger {
-    color: #7e89a3;
+    color: #FFF;
     display: block;
     float: right;
     padding: 1rem;
